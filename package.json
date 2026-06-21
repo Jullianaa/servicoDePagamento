@@ -1,0 +1,35 @@
+{
+  "name": "servicodepagamento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jullianaa/servicoDePagamento.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "test:report": "mocha test/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=reports/test-results.xml"
+  },
+  "devDependencies": {
+    "mocha": "^11.0.0",
+    "mocha-junit-reporter": "^2.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Jullianaa/servicoDePagamento/issues"
+  },
+  "homepage": "https://github.com/Jullianaa/servicoDePagamento#readme",
+  "dependencies": {
+    "mocha": "^11.7.6"
+  }
+}
